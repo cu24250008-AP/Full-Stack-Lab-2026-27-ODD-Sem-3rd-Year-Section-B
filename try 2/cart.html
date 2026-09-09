@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>CRAZZY | Shopping Cart</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+    <div class="logo">CRAZZY</div>
+
+    <nav>
+
+        <a href="index.html">Home</a>
+
+        <a href="products.html">Shop</a>
+
+        <a href="index.html#categories">Categories</a>
+
+        <a href="index.html#about">About</a>
+
+        <a href="cart.html">
+            Cart 🛍 <span class="cart-count">0</span>
+        </a>
+
+    </nav>
+
+</header>
+
+
+<section class="cart-section">
+
+    <p class="small-title center">
+        YOUR BAG
+    </p>
+
+    <h1>Your Shopping Cart</h1>
+
+
+    <div class="cart-container">
+
+
+        <div class="table-wrapper">
+
+            <table class="cart-table">
+
+                <thead>
+
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Subtotal</th>
+                        <th>Action</th>
+                    </tr>
+
+                </thead>
+
+
+                <tbody id="cart-items">
+
+                    <!-- JavaScript will create cart items -->
+
+                </tbody>
+
+
+                <tfoot>
+
+                    <tr>
+
+                        <td colspan="4">
+                            <strong>Grand Total</strong>
+                        </td>
+
+                        <td>
+                            <strong id="grand-total">
+                                ₹0
+                            </strong>
+                        </td>
+
+                    </tr>
+
+                </tfoot>
+
+            </table>
+
+        </div>
+
+
+        <div class="cart-actions">
+
+            <a
+                href="products.html"
+                class="outline-btn">
+
+                CONTINUE SHOPPING
+
+            </a>
+
+
+            <a
+                href="checkout.html"
+                class="dark-btn">
+
+                PROCEED TO CHECKOUT
+
+            </a>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+<footer>
+
+    <div class="footer-logo">CRAZZY</div>
+
+    <p>Timeless fashion for your everyday story.</p>
+
+    <p>
+        Email: hello@crazzy.com |
+        Phone: +91 98765 XXXXX
+    </p>
+
+    <p>© 2026 CRAZZY. All Rights Reserved.</p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
