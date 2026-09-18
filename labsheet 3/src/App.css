@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #222;
+}
+
+nav {
+  background-color: #222;
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  font-size: 28px;
+}
+
+nav button {
+  background-color: white;
+  color: #222;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  padding: 40px;
+}
+
+.product-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.product-card h3 {
+  margin: 15px 0 8px;
+}
+
+.product-card p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.product-card button,
+.cart button,
+form button {
+  background-color: #222;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cart {
+  background-color: white;
+  margin: 40px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.cart h2 {
+  margin-bottom: 20px;
+}
+
+.cart-item {
+  border-bottom: 1px solid #ddd;
+  padding: 15px 0;
+}
+
+.cart-item p {
+  margin: 5px 0;
+}
+
+form {
+  background-color: white;
+  margin: 40px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+form h2 {
+  margin-bottom: 20px;
+}
+
+form input,
+form select {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
